@@ -1,0 +1,129 @@
+#home ::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.page_container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(36, 36, 43);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  background-color: rgb(36, 36, 43);
+  color: rgb(255, 255, 255);
+}
+
+.left_header {
+  display: flex;
+  flex: 0.7;
+  justify-content: space-between;
+}
+
+.guest{
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+}
+
+.options_container {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_header {
+  display: flex;
+  flex: 0.3;
+  justify-content: flex-end;
+}
+
+.textArea_container {
+  display: flex;
+}
+
+.left_textArea {
+  width: 69%;
+  margin: 0 auto;
+  height: 94vh;
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+  outline: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  resize: none;
+  border: 1px solid rgb(18, 18, 18);
+}
+
+.left_textArea ::placeholder {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+}
+
+.right_textArea {
+  width: 30%;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 18, 18);
+  font-size: 1rem;
+  text-decoration: none;
+  resize: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgb(18, 18, 18);
+}
+
+.button {
+  padding: 0.5rem 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(18, 18, 18);
+}
+
+.dropdown {
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+}
+
+.guest_dropdown{
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  position: relative;
+  left:3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+}
+
+.brand {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.left_button {
+  margin-right: 1.5rem;
+}

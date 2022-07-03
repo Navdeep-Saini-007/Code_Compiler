@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(36, 36, 43);
+  border-bottom: rgb(36, 36, 43);
+}
+
+.brand {
+  cursor: pointer;
+}
+
+.login_signup_container {
+  display: flex;
+  min-width: 7rem;
+  justify-content: space-between;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.button{
+  background-color: rgb(18, 18, 18);
+  border:none;
+  color:rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding:0.5rem 0.7rem;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 18, 18);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}

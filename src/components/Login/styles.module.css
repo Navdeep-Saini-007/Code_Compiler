@@ -1,0 +1,46 @@
+.page_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(36, 36, 43);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+  background-color: rgb(18, 18, 18);
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+  border-radius: 1rem;
+}
+
+.wrapper > * {
+  margin-bottom: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+.msg {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.signup {
+  margin-left: 0.5rem;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+}
