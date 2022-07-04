@@ -35,6 +35,7 @@ export default function Home() {
 
       fetch("https://thawing-hollows-23492.herokuapp.com/snippet", {
         method: "POST",
+        mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
